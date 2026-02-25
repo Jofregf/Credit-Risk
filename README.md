@@ -43,4 +43,4 @@ url: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-datase
 * A significantly higher concentration of recent arrears (1 month or more) is observed in the group that defaults. In particular, the values ​​for 2 months of arrears show a substantial difference between the two groups, suggesting that recent payment behavior is a strong predictor of default risk.
 * A progressive increase in the average level of arrears was observed in the months prior to the default, demonstrating a sustained deterioration in payment behavior.
 * No substantial differences were observed in the invoiced amounts between the two groups. However, customers who defaulted showed significantly lower payment amounts in all the months analyzed, suggesting that the ability or willingness to pay is a determining factor in non-compliance.
-
+* Although the amounts billed are similar between both groups, customers who default consistently show lower payment ratios in all months analyzed, suggesting less capacity or willingness to cover the accumulated debt.
