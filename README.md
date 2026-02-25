@@ -31,3 +31,12 @@ url: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-datase
 * PAY_AMT5: Amount of previous payment in May, 2005 (NT dollar)
 * PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 * default.payment.next.month: Default payment (1=yes, 0=no)
+
+# EDA results
+* We have 30,000 rows and 25 columns.
+* We did not observe any non-null values.
+* We observed 78% of people not in default and 22% in default.
+* Customers who default have, on average, lower credit limits.
+* The average age of people who are in default as those who are not is approximately the same, 35 years, so age does not influence this characteristic.
+* Payment history variables (PAY_X) show clear differences between customers with and without defaults. Customers who default have higher average levels of late payments in previous months.
+* Customers who default have a significantly higher proportion of recent arrears (1 month or more) compared to customers without default. In particular, the percentage of customers with 2 months of arrears is almost 8 times higher in the default group.
