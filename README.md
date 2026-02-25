@@ -1,5 +1,5 @@
 # 📄 Dataset
-url: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
+[Link](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
 ##  Columns
 * ID: ID of each client
 * LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit)
