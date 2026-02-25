@@ -44,3 +44,5 @@ url: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-datase
 * A progressive increase in the average level of arrears was observed in the months prior to the default, demonstrating a sustained deterioration in payment behavior.
 * No substantial differences were observed in the invoiced amounts between the two groups. However, customers who defaulted showed significantly lower payment amounts in all the months analyzed, suggesting that the ability or willingness to pay is a determining factor in non-compliance.
 * Although the amounts billed are similar between both groups, customers who default consistently show lower payment ratios in all months analyzed, suggesting less capacity or willingness to cover the accumulated debt.
+* The most predictive variable is the most recent payment status (PAY_0), with a correlation of 0.32. Furthermore, there is an increasing trend in the correlation from PAY_6 to PAY_0, suggesting that recent deterioration in payment behavior is a strong predictor of default.
+
