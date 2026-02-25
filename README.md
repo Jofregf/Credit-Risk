@@ -41,3 +41,4 @@ url: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-datase
 * Payment history variables (PAY_X) show clear differences between customers with and without defaults. Customers who default have higher average levels of late payments in previous months.
 * Customers who default have a significantly higher proportion of recent arrears (1 month or more) compared to customers without default. In particular, the percentage of customers with 2 months of arrears is almost 8 times higher in the default group.
 * A significantly higher concentration of recent arrears (1 month or more) is observed in the group that defaults. In particular, the values ​​for 2 months of arrears show a substantial difference between the two groups, suggesting that recent payment behavior is a strong predictor of default risk.
+
