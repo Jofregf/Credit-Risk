@@ -84,4 +84,13 @@ Correlation with target:
 This confirms that the most recent payment behavior is the strongest individual predictor of default risk, reinforcing the EDA findings.
 
 ---
+### 2️⃣ PAY_MEAN
+We created `PAY_MEAN` as the average repayment status across the last six months.
+This feature captures the overall historical payment behavior of each customer, smoothing month-to-month fluctuations.
+Correlation with target:
+- PAY_MEAN vs default: **0.282**
+
+Although slightly lower than PAY_LATEST, this variable remains strongly predictive, indicating that sustained payment deterioration over time is an important risk factor.
+
+---
 
