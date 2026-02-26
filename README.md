@@ -21,10 +21,10 @@
 ---
 ## 🔎 Exploratory Data Analysis (EDA)
 ### 1️⃣ Target Distribution
-- Total filas: 30,000  
-- Total columnas: 25  
-- Datos nulos: ninguno  
-- Distribución de default: **78% no-default / 22% default**
+- Total rows: 30,000
+- Total columns: 25
+- Null data: none
+- Default distribution: **78% non-default / 22% default**
 
 ---
 
