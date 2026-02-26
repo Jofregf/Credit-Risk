@@ -93,4 +93,13 @@ Correlation with target:
 Although slightly lower than PAY_LATEST, this variable remains strongly predictive, indicating that sustained payment deterioration over time is an important risk factor.
 
 ---
+### 3️⃣ PAY_MAX_DELAY
+We created `PAY_MAX_DELAY` to capture the worst repayment status observed in the last six months.
+This feature represents the maximum delay experienced by each customer, highlighting extreme delinquency events.
+Correlation with target:
+- PAY_MAX_DELAY vs default: **0.331**
+
+This is the strongest individual correlation observed so far, suggesting that severe historical delinquency events are highly predictive of future default risk.
+
+---
 
