@@ -74,4 +74,14 @@ Median PAY/BILL (month 1) |    0.056   |  0.046  |
 Recent payment behavior and the proportion of payments relative to the invoice are the most decisive factors for predicting default.
 
 ---
-## 📓 Feature Engineering
+## 🛠️ Feature Engineering
+### 1️⃣ PAY_LATEST
+We created `PAY_LATEST` as an explicit feature representing the most recent repayment status (September 2005).
+This variable is equivalent to `PAY_0` but renamed to reflect its semantic meaning within the feature engineering process.
+Correlation with target:
+- PAY_LATEST vs default: **0.325**
+
+This confirms that the most recent payment behavior is the strongest individual predictor of default risk, reinforcing the EDA findings.
+
+---
+
