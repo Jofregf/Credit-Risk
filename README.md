@@ -73,5 +73,5 @@ Median PAY/BILL (month 1) |    0.056   |  0.046  |
 **Conclusion:**
 Recent payment behavior and the proportion of payments relative to the invoice are the most decisive factors for predicting default.
 
-
-
+---
+## 📓 Feature Engineering
