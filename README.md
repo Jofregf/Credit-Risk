@@ -102,4 +102,18 @@ Correlation with target:
 This is the strongest individual correlation observed so far, suggesting that severe historical delinquency events are highly predictive of future default risk.
 
 ---
+### 4️⃣ PAY_COUNT_DELAY_1plus & PAY_COUNT_DELAY_2plus
+We created frequency-based features to capture how often customers experienced delinquency over the last six months.
+- `PAY_COUNT_DELAY_1plus`: Number of months with delay ≥ 1.
+- `PAY_COUNT_DELAY_2plus`: Number of months with delay ≥ 2.
+Correlations with target:
+- PAY_COUNT_DELAY_1plus vs default: **0.398**
+- PAY_COUNT_DELAY_2plus vs default: **0.399**
+
+These are the strongest correlations observed so far, suggesting that repeated delinquency is a more powerful predictor of default than a single extreme event or the most recent status alone.
+
+---
+### 5️⃣ 
+
+---
 
