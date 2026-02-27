@@ -113,7 +113,14 @@ Correlations with target:
 These are the strongest correlations observed so far, suggesting that repeated delinquency is a more powerful predictor of default than a single extreme event or the most recent status alone.
 
 ---
-### 5️⃣ 
+### 5️⃣ PAY_TREND
+We created `PAY_TREND` as the difference between the most recent and the oldest repayment status:
+PAY_TREND = PAY_0 − PAY_6
+This feature captures whether the customer's payment behavior has deteriorated or improved over time.
+Correlation with target:
+- PAY_TREND vs default: **0.129**
+
+Although the direction of change has some predictive value, it is significantly weaker than frequency or severity-based features. This suggests that the absolute level and repetition of delinquency are more important predictors than short-term behavioral trends.
 
 ---
-
+### 6️⃣
