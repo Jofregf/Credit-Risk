@@ -236,3 +236,4 @@ Composite behavioral scoring can meaningfully enhance risk signal strength.
 The iterative experimentation process mirrors real-world credit risk modeling practices.
 
 ---
+## 🖥️ Modeling
