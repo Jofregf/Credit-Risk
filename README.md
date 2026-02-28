@@ -265,3 +265,14 @@ The model achieved a KS of 0.4143 on the test set, outperforming logistic regres
 However, the train-test gap suggests moderate overfitting.
 Feature importance confirms that cumulative delay severity is the dominant predictive driver.
 
+The tuned Random Forest model consistently dominates logistic regression across classification thresholds, achieving higher AUC and KS values.
+This indicates the presence of nonlinear interactions and complex patterns not fully captured by the linear model.
+However, the logistic regression remains competitive and offers superior interpretability.
+
+The Random Forest model demonstrates stronger risk concentration in the highest deciles, capturing 48.8% of defaults within the top 20% highest-risk population, compared to 46.5% for logistic regression.
+Additionally, the lowest decile default rate is substantially lower under RF (4.8% vs 9.3%), indicating improved separation of low-risk borrowers.
+
+### 🏦 Final Considerations
+In a traditional banking environment, logistic regression may be preferred due to regulatory transparency requirements.
+In less regulated or fintech contexts, the tuned Random Forest would likely be selected due to its superior predictive performance.
+
