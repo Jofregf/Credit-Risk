@@ -236,4 +236,26 @@ Composite behavioral scoring can meaningfully enhance risk signal strength.
 The iterative experimentation process mirrors real-world credit risk modeling practices.
 
 ---
-## 🖥️ Modeling
+## 🖥️ Model Refinement and Stability Analysis
+Initial logistic regression models presented structural multicollinearity due to engineered variables derived from overlapping payment history features (VIF = ∞).
+A systematic feature consolidation process was applied:
+* Removal of raw monthly payment status variables.
+* Aggregation of billing amounts into a mean variable (BILL_MEAN).
+* Elimination of redundant cumulative delay metrics.
+* Variance Inflation Factor (VIF) re-evaluation until all variables were below 12.
+* Feature standardization to ensure numerical convergence.
+
+The final model achieved:
+* AUC (Test): 0.7311
+* Gini (Test): 0.4622
+* KS (Test): 0.3819
+
+Performance improved compared to baseline while significantly enhancing interpretability and numerical stability.
+
+The final feature set balances:
+* Credit capacity
+* Debt exposure
+* Delay severity
+* Payment behavior
+* Demographic controls
+
