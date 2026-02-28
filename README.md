@@ -259,3 +259,9 @@ The final feature set balances:
 * Payment behavior
 * Demographic controls
 
+### Random Forest
+A Random Forest model was trained to evaluate potential nonlinear relationships.
+The model achieved a KS of 0.4143 on the test set, outperforming logistic regression (KS 0.3819).
+However, the train-test gap suggests moderate overfitting.
+Feature importance confirms that cumulative delay severity is the dominant predictive driver.
+
