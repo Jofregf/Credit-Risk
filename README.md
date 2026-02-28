@@ -1,5 +1,26 @@
 # Credit Risk Analysis - Default Prediction
 
+## 📂 Project Structure
+* notebooks/: Contains the full modeling workflow, including feature engineering, model training, tuning, and evaluation.
+* data/: Raw dataset used for analysis.
+* requirements.txt: Python dependencies required to reproduce results.
+
+### 🚀 How to Run
+* Clone the repository
+* Create a virtual environment
+* Install dependencies:
+
+```bash
+pip install -r requirements.txt`pip install -r requirements.txt`
+```
+* Open the notebook:
+
+```bash
+jupyter notebook
+```
+* Run all cells in notebooks/credit_risk_model.ipynb
+
+---
 ## 📄 Dataset
 That dataset is the famous dataset of the UCI Machine Learning Repository about credit card customers in Taipei, originally published by researchers in Taiwan.
 
